@@ -1,0 +1,138 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Emima Pon Glory
+Updated: July 2016
+
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+ #row2{
+   text-align: center;
+ }
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body{
+  -webkit-font-smoothing:antialiased;
+  text-rendering: optimizeLegibility;
+
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#wrap{
+background-image: url("../../images/bg-2.jpg");
+padding-left: 0px;
+padding-right: 0px;
+}
+.navbar{
+  background: black;
+  opacity: 0.6;
+}
+.navbar-header a{
+  font-size: 30px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Playfair Display', serif;
+  color:black;
+  }
+.navbar-collapse{
+  margin-top:10px;
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+    font-family: 'Yanone Kaffeesatz', 'sans-serif';
+  color: white;
+  font-size:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.home{
+  text-align: center;
+  margin-top:100px;
+  }
+  .home h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+
+  }
+#Events img:hover{
+  opacity: 0.6;
+}
+.below{
+  margin-top: 70px;
+  line-height:35px;
+  font-weight: bolder;
+    font-size: 20px;
+    background: black;
+    opacity: 0.6;
+    color: white;
+}
+.below img{
+  margin-top: 20px;
+}
+#spl{
+  margin-top: 30px;
+}
+.intro{
+  font-size:18px;
+  }
+#Events h2,#Wshop h2{
+   margin-bottom: 40px;
+    color: red;
+    font-family: 'Yanone Kaffeesatz', 'sans-serif';
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+#Events p{
+  font-family: 'Dosis', sans-serif;
+  color:#428bca;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+#Events a{
+  text-decoration: none;
+}
+
+#slide2 h4{
+  text-align: center;
+}
+#myCarousel{
+  background-image: url("../../images/about-bg.jpg");
+
+  }
+  #myCarousel h4{
+    text-align: center;
+  }
+.content,#copy,#social{
+  text-align: center;
+    font-family: 'Yanone Kaffeesatz', 'sans-serif';
+  }
+
+.cont{
+  padding: 50px;
+  text-align: justify;
+  margin-top: 50px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+  }
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
